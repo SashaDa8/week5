@@ -1,0 +1,132 @@
+header,
+footer {
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right, rgb(78, 78, 233), rgb(68, 173, 244));
+    height: 100px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    font-weight: bold;
+    margin-left: 300px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.text1 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.item {
+    font-size: 40px;
+    opacity: 80%;
+    height: 100vh;
+}
+
+
+.item2 {
+    display: flex;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612915086_138-p-malinovii-zakat-fon-195.jpg);
+    opacity: 80%;
+    color: antiquewhite;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-content: flex-end;
+    justify-items: center;
+}
+
+.it {
+    height: 100px;
+    background-color: rgb(105, 241, 187);
+    font-size: 30px;
+    font-style: italic;
+    font-family: ChinaCyr Regular;
+    background: url(https://static8.depositphotos.com/1397034/866/i/950/depositphotos_8661739-stock-photo-tattoo-art-sketch-of-a.jpg);
+    color: rgb(63, 5, 190);
+    font-weight: bold;
+    text-align: end;
+
+}
+
+.it1 {
+    width: 470px;
+    margin: 0 8px 4px 5px;
+
+}
+
+.it2 {
+    width: 470px;
+    margin: 0 5px 4px 8px;
+}
+
+.it3 {
+    width: 950px;
+    margin: 4px 8px 8px 8px;
+}
+
+
+.item3 {
+    background: url(https://krot.info/uploads/posts/2021-11/1636577309_80-krot-info-p-oranzhevii-zakat-krasivoe-foto-82.jpg);
+    width: 500px;
+}
+
+.headConteiner,
+.footContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.headConteiner :hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.foot :hover {
+    color: aqua;
+    font-size: 30px;
+}
+
+.head,
+.foot {
+    color: white;
+    text-decoration: none;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-top: 20px;
+
+}
+
+
+.head2,
+.head4,
+.foot1,
+.foot3 {
+    align-self: start;
+}
